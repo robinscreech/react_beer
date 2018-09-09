@@ -1,0 +1,78 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+  height: 60vh;
+  background-image: url('assets/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mid__hero{
+	height: 20vh;
+	background-position: top;
+}
+
+.searchBar{
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 40px;
+	width: 300px;
+	margin: 50px 0 0 50px;
+	color: black;
+	padding-left: 20px;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -20vh;
+	margin-bottom: 10vh;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	background: white;
+	box-shadow: 0px 0px 30px #e3e3e3;
+	flex: 1 0 30%;
+	height: 340px;
+}
+
+.card:hover{
+	box-shadow: 0px 0px 15px yellow;
+	cursor: pointer;
+}
+
+.title{
+	display: flex;
+	align-items: center;
+	order: 2;
+	align-self: center;
+	height: 100px;
+	max-width: 80%;
+}
+
+.title__h1{
+	align-self: center;
+}
+
+.card-image__container{
+	flex: 1;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 25px;
+}
+
+.card__image{
+	height: 100%;
+}
